@@ -12,8 +12,8 @@ class BubbleSort
     i = 0
     iterations = collection.length
 
-    iterations.times do |iteration|
-      if collection.at(index) > collection(i + 1)
+    iteration do |iteration|
+      if collection.at(i) > collection.at(i + 1)
         binding.pry
         collection[i], collection[i + 1] = collection[i + 1], collection[i]
         i+=
