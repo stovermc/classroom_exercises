@@ -3,7 +3,7 @@
 # Provide an array of items to be sorted using the bubble sort algorithm.
 
 class BubbleSort
-
+  
   def sort(collection)
     iterations = collection.length - 1
     swap = true
