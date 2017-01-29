@@ -1,4 +1,7 @@
-require "pry"
+# Author: Mark Stover
+# Class exercise: Bubble Sort
+# Provide an array of items to be sorted using the bubble sort algorithm.
+
 class BubbleSort
 
   def sort(collection)
@@ -18,36 +21,9 @@ class BubbleSort
   end
 end
 sorter = BubbleSort.new()
-puts sorter.sort([4, 2, 1, 3])
-# binding.pry
-# ""
-    #   collection.each do |i|
-    #   end
-    #
-    #     [i + 1] == collection.length - 1
-    #     if collection[i] > collection[i + 1]
-    #       collection[i], collection[i + 1] = collection[i + 1], collection[i]
-    #       i += 1
-    #       swap = true
-    #     else
-    #       i += 1
-    #     end
-    #   end
-    # end
+puts sorter.sort(['d','b','a','c'])
 
-
-#     iterations.times do |iteration|
-#       binding.pry
-#       if collection.at(i) >= collection.at(i + 1)
-#         collection[i], collection[i + 1] = collection[i + 1], collection[i]
-#         i+= 1
-#       else
-#         i+= 1
-#       end
-#     end
-#   end
-# end
-
+# Pseudo-code
 # Loop through the collection
 # while swaps are still occuring, continue to compare indexes of the collection
 # compare each element in the collection to the next value in the collection
