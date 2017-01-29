@@ -5,7 +5,6 @@
 class BubbleSort
 
   def sort(collection)
-
     iterations = collection.length - 1
     swap = true
     while swap do
@@ -20,6 +19,7 @@ class BubbleSort
     return collection
   end
 end
+
 sorter = BubbleSort.new()
 puts sorter.sort(['d','b','a','c'])
 
